@@ -1,5 +1,5 @@
 # fs-ft-sep25-js-examples
 
-### En este repositorio encontrarás ejemplos utilizados en clase correspondientes al módulo de `Javascript`
+### En este repositorio encontrarás ejemplos utilizados en clase correspondientes al módulo de `Javascript`.
 
 ![npminstall!](./assets/htmlcssjs.gif)
