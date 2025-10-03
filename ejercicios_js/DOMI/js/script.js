@@ -101,4 +101,3 @@ buttonList.addEventListener("click", () => {
     console.log("Quieres escribir algo haz el favor")
   }
 })
-
