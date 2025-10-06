@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Ejercicio CSS</title>
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">Mi sitio</a>
+    <nav>
+      <a href="#position">Position</a>
+      <a href="#flex">Flex</a>
+      <a href="#more">Más cosas</a>
+    </nav>
+  </header>
+  <main>
+    <section class="section masthead">
+      <h1>Soy un masthead y me centraré vertical y horizontalmente</h1>
+    </section>
+    <section id="position" class="section">
+      <h2>POSITION</h2>
+      <div class="container-sticky">
+        <article class="article-sticky">
+          <p>
+            JavaScript nació en 1995 en Netscape, cuando Brendan Eich creó en apenas diez días
+            un lenguaje que originalmente se llamó Mocha. Más tarde pasó a llamarse LiveScript,
+            porque la idea era que fuese un lenguaje ligero para interactuar con la web dentro del
+            navegador Netscape Navigator. Sin embargo, justo en ese momento, el lenguaje Java
+            de Sun Microsystems estaba en pleno auge mediático. Para aprovechar esa popularidad
+            y hacer que la gente lo relacionara rápidamente con algo potente y moderno,
+            Netscape y Sun decidieron rebautizar LiveScript como JavaScript.
+          </p>
+
+          <p>
+            El nombre generó mucha confusión porque Java y JavaScript en realidad son lenguajes
+            totalmente diferentes: Java es un lenguaje compilado, fuertemente tipado y orientado
+            a objetos, mientras que JavaScript es interpretado, dinámico y más flexible. Pero la
+            jugada de marketing funcionó: al llevar “Java” en el nombre, JavaScript fue adoptado
+            rápidamente por los desarrolladores web, y poco a poco se convirtió en el estándar
+            para la interactividad en el navegador.
+          </p>
+
+          <p>
+            A finales de los años noventa, cada navegador tenía su propia versión de JavaScript,
+            lo que creaba incompatibilidades enormes. Para resolverlo, se estandarizó bajo el
+            nombre de ECMAScript, definido por la organización ECMA International. Desde
+            entonces, el lenguaje ha evolucionado constantemente, incorporando nuevas
+            funcionalidades como las arrow functions, las promesas, el async/await o los módulos
+            modernos, pero siempre conservando el nombre JavaScript en la práctica cotidiana.
+          </p>
+
+          <p>
+            Así que, aunque hoy en día el nombre JavaScript pueda parecer fruto de una confusión,
+            en realidad fue un movimiento estratégico: gracias a esa decisión de marketing,
+            el lenguaje ganó tracción, se convirtió en el motor de la web moderna y sigue siendo
+            uno de los lenguajes más usados del mundo. En resumen, JavaScript no se llama así por
+            ser una versión de Java, sino porque en su origen necesitaba subirse a la ola de
+            popularidad de Java y conseguir atención en un ecosistema que estaba naciendo.
+          </p>
+          <p>
+            Uno de los relatos más repetidos sobre JavaScript es que fue creado en apenas
+            diez días. En 1995, Brendan Eich trabajaba en Netscape y le pidieron que diseñara
+            un lenguaje de scripting que pudiera ejecutarse dentro del navegador. La urgencia
+            era enorme: necesitaban un lenguaje ligero que complementara a Java y que
+            permitiera dar algo de dinamismo a las páginas web, que hasta entonces eran
+            completamente estáticas. Eich lo hizo en cuestión de días, y esa rapidez marcó
+            tanto la identidad del lenguaje como la percepción que tuvieron muchos
+            desarrolladores durante años.
+          </p>
+
+          <p>
+            Durante mucho tiempo, JavaScript fue visto como un “juguete”. Se usaba para cosas
+            pequeñas como abrir alertas, cambiar colores al pasar el ratón o validar un
+            formulario antes de enviarlo. La comunidad de desarrolladores “serios” lo despreciaba,
+            porque lo veían limitado, mal diseñado y lleno de rarezas. De hecho, existía un chiste
+            recurrente: “Java es a JavaScript lo que una cafetera es a un café instantáneo”.
+            Se le consideraba el patito feo de la programación.
+          </p>
+
+          <p>
+            Sin embargo, poco a poco el lenguaje empezó a ganar terreno. Con la llegada de AJAX
+            a principios de los 2000, JavaScript pasó de ser un juguete a una herramienta clave
+            para crear aplicaciones web más interactivas, como Gmail o Google Maps, que
+            mostraron al mundo que las páginas podían comportarse casi como aplicaciones de
+            escritorio. Después llegó la explosión de librerías y frameworks como jQuery,
+            Angular, React o Vue, que terminaron de consolidar a JavaScript como el corazón de
+            la web moderna.
+          </p>
+
+          <p>
+            Hoy, aquellas críticas parecen casi irónicas: el lenguaje que nació como un experimento
+            apresurado y que fue odiado durante años es ahora uno de los pilares del desarrollo
+            tecnológico. Gracias a Node.js, incluso se usa en el servidor, rompiendo la barrera de
+            “solo navegador” y permitiendo a millones de programadores trabajar con un mismo
+            lenguaje en front y back. Además, con la llegada de TypeScript, ES6 y todas las mejoras
+            modernas, JavaScript se ha convertido en un ecosistema robusto y maduro.
+          </p>
+
+          <p>
+            Lo curioso es que, a pesar de sus defectos de origen, de los chistes y de los detractores,
+            JavaScript se mantiene como el lenguaje más popular del mundo según numerosas
+            encuestas y rankings. Lo que empezó en diez días como un parche para un navegador
+            terminó siendo la columna vertebral de Internet. Esa es, quizá, la mayor leyenda de
+            todas: un lenguaje que nadie respetaba se volvió imprescindible.
+          </p>
+        </article>
+        <aside>
+          <div class="banner-sticky">300x600</div>
+        </aside>
+      </div>
+    </section>
+    <section id="flex" class="section">
+      <h2>Flex</h2>
+      <div class="content-flex">
+        <div class="container-flex">
+          <div class="box">1</div>
+          <div class="box">2</div>
+          <div class="box">3</div>
+          <div class="box">4</div>
+          <div class="box">5</div>
+          <div class="box">6</div>
+          <div class="box">7</div>
+          <div class="box">8</div>
+        </div>
+      </div>
+    </section>
+    <section id="more" class="section">
+      <h2>Más cosas</h2>
+
+      <div class="container-thumbs">
+        <h3>Estas son con object-fit: cover</h3>
+        <div class="flex">
+          <img class="thumb thumb-cover" src="https://picsum.photos/seed/a/800/400" alt="picture1"/>
+          <img class="thumb thumb-cover" src="https://picsum.photos/seed/b/400/800" alt="picture2"/>
+          <div class="spinner"></div>
+        </div>
+      </div>
+
+      <div class="container-thumbs">
+      <h3>Estas son con object-fit: contain</h3>
+      <div>
+        <div class="flex">
+          <img class="thumb thumb-contain" src="https://picsum.photos/seed/c/800/400" alt="picture3"/>
+          <img class="thumb thumb-contain" src="https://picsum.photos/seed/d/400/800" alt="picture4"/> 
+        </div>
+      </div>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+    <p>Hecho con <span>❤︎</span> por Data</p>
+  </footer>
+</body>
+</html>

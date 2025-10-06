@@ -99,7 +99,6 @@ function renderPokemons(placeholder, type) {
 		</li>
 		`
 	}
-	
 }
 
 renderPokemons(agua, "Agua")
