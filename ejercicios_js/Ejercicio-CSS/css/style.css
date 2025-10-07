@@ -115,12 +115,15 @@ main {
   min-height: 500px;
   scroll-margin: 60px;
   background-color: #1b1b1b;
-  border-bottom: 2px solid var(--color-white);
 }
 
 /* .section:last-child {
   border-bottom: none;
-} */
+  } */
+  
+.section:not(.section:last-child) {
+  border-bottom: 2px solid var(--color-white);
+}
 
 
 .section h2 {
